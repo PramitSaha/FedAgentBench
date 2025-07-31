@@ -87,6 +87,4 @@ class YourClient(FedBNClient):
 
 You can find all details in [`FedAvgClient`](src/client/fedavg.py) and [`FedAvgServer`](src/server/fedavg.py), which are the bases of all implementations in FL-bench.
 
-
-
 ```
