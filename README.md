@@ -55,7 +55,7 @@ We provide `requirements.txt` as a reference, the versions of packages are not c
 
 ### Data Preparation
 
-* Create a folder named `ExternalDataset` locally.
+* Create a folder `ExternalDataset` locally.
 * Put your custom dataset folder into `ExternalDataset`.
 * We suggest you remove training/testing-irrelevant files from your dataset folder to avoid interference!
 
@@ -77,7 +77,7 @@ ExternalDataset
 After environment setup and data preparation, you should first check all the files, and replace all 'path/to/sth' into your own paths.
 Then, edit the `human_requirements` parameter in `run.sh` to your own requirements, and run:
 ```
-./run_FL.sh
+./run_FL_.sh
 ```
 Training logs and checkpoints will be placed under `TrainPipeline/Logout'.
 
