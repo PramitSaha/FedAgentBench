@@ -77,7 +77,7 @@ ExternalDataset
 After environment setup and data preparation, you should first check all the files, and replace all 'path/to/sth' into your own paths.
 Then, edit the `human_requirements` parameter in `run.sh` to your own requirements, and run:
 ```
-./run.sh
+./run_FL.sh
 ```
 Training logs and checkpoints will be placed under `TrainPipeline/Logout'.
 
